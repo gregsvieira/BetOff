@@ -29,15 +29,15 @@ Check off each item as it is completed. Tasks are ordered for execution — depe
 
 ### 1.2 Database — Migrations
 
-- [ ] Migration: `game_type` enum (`sports | slots | roulette`)
-- [ ] Migration: `bet_outcome` enum (`win | loss | void`) and `bet_status` enum (`pending | resolved`)
-- [ ] Migration: `public.users` table (id, display_name, virtual_balance, stimulus_level, taper_started_at, created_at)
-- [ ] Migration: `public.bets` table (all columns + RLS)
-- [ ] Migration: `public.sessions` table (all columns + RLS)
-- [ ] Migration: `public.transactions` table (all columns + RLS)
-- [ ] Migration: `public.milestones` table (all columns + RLS)
-- [ ] Migration: `public.forum_posts` and `public.forum_replies` tables (all columns + RLS)
-- [ ] Migration: trigger to auto-create `public.users` row on `auth.users` insert
+- [x] Migration: `game_type` enum (`sports | slots | roulette`)
+- [x] Migration: `bet_outcome` enum (`win | loss | void`) and `bet_status` enum (`pending | resolved`)
+- [x] Migration: `public.users` table (id, display_name, virtual_balance, stimulus_level, taper_started_at, created_at)
+- [x] Migration: `public.bets` table (all columns + RLS)
+- [x] Migration: `public.sessions` table (all columns + RLS)
+- [x] Migration: `public.transactions` table (all columns + RLS)
+- [x] Migration: `public.milestones` table (all columns + RLS)
+- [x] Migration: `public.forum_posts` and `public.forum_replies` tables (all columns + RLS)
+- [x] Migration: trigger to auto-create `public.users` row on `auth.users` insert
 - [ ] Generate TypeScript types (`/types`)
 - [ ] Seed DB with test data (`/seed`)
 
